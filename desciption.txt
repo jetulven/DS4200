@@ -1,4 +1,4 @@
-website link: 
+website link:  https://jetulven.github.io/DS4200/
 
 The surfing website features a clean and visually appealing design that enhances user experience while promoting the theme of surfing. Here’s a breakdown of the styling and customizations applied:
 
