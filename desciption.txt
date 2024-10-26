@@ -1,0 +1,17 @@
+website link: 
+
+The surfing website features a clean and visually appealing design that enhances user experience while promoting the theme of surfing. Here’s a breakdown of the styling and customizations applied:
+
+Background Images: Each page has a unique full-cover background image that reflects the essence of surfing. The home page showcases an engaging image of surfers, while the second page features a serene ocean view.
+
+Responsive Design: The website utilizes CSS properties like flexbox to create a responsive layout. This ensures that content is well-aligned and visually appealing on various screen sizes, enhancing accessibility for mobile and desktop users.
+
+Font Customization: Different font sizes are used for headings (h1 and h2) to create a visual hierarchy. The body text is styled to be smaller on the second page for better readability, ensuring that users can easily consume content.
+
+Centering Elements: All text, navigation links, and images are centered to provide a harmonious look. This alignment directs users' attention and creates a balanced aesthetic throughout the pages.
+
+Navigation Styling: The navigation menu features styled links with hover effects, allowing users to intuitively navigate between the home page and the second page while ensuring a cohesive design.
+
+Footer Design: A fixed footer at the bottom of each page provides consistent contact information, reinforcing the website’s identity while maintaining easy access for users.
+
+Overall, these styling and customization efforts combine to create an engaging, user-friendly surfing website that effectively conveys the lifestyle and benefits of surfing.
