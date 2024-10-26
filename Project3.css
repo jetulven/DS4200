@@ -1,0 +1,127 @@
+/* General styling */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    color: white;
+}
+
+/* Specific styling for the first page */
+body.home-page {
+    background-image: url('wave.jpg');
+    background-size: cover; /* Ensures the background image covers the entire page */
+    background-position: center; /* Centers the background image */
+    background-repeat: no-repeat; /* Prevents the background from repeating */
+    min-height: 100vh; /* Ensures the body covers the full height of the viewport */
+}
+
+/* Specific styling for the second page */
+body.surfing-background {
+    background-image: url('turn.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+/* Overlay for 50% transparency on the first page */
+.overlay {
+    position: relative;
+    z-index: 1; /* Places overlay above background */
+    background-color: rgba(0, 0, 0, 0.5); /* 50% transparency */
+    padding: 5px;
+    text-align: center;
+}
+
+.tagline {
+    position: relative; 
+    z-index: 2; 
+    margin: 20px 0; 
+    font-size: 1.5rem;
+    text-align: center;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+/* Centering specific paragraphs */
+.centered {
+    text-align: center; /* Centers the text */
+    margin: 20px; /* Adds margin for spacing */
+}
+
+/* Info section styling */
+.info-section {
+    position: relative; /* Allows z-index to work */
+    z-index: 2; /* Places info section above the overlay */
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    margin: 20px;
+}
+
+/* List styling */
+.info-content {
+    flex: 1; /* Takes up one portion of the space */
+    max-width: 45%; /* Limits the width */
+}
+
+/* Paragraph styling */
+.info-paragraph {
+    flex: 1; /* Takes up one portion of the space */
+    max-width: 45%; /* Limits the width */
+    padding-left: 20px; /* Adds space between list and paragraph */
+}
+
+.info-paragraph p {
+    line-height: 1.6; /* Increases line spacing for readability */
+    font-size: 0.9rem;
+}
+
+/* General styles for headers and paragraphs */
+h1 {
+    font-size: 3rem; /* Larger header for the first page */
+    text-align: center; /* Centers the header */
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+}
+
+h2 {
+    font-size: 2rem; /* Smaller header for the second page */
+    text-align: center; /* Centers the header */
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+}
+
+p, ul {
+    font-size: 1.2rem;
+}
+
+/* Styling for the main navigation */
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    margin: 5px;
+    background-color: rgba(0, 0, 0, 0.4);
+    border-radius: 5px;
+}
+
+nav a:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+.main-image, img {
+    width: 100%;
+    max-width: 600px;
+    border-radius: 10px;
+    margin: 20px 0;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 10px; /* Reduce padding */
+    text-align: center;
+    width: 100%;
+    position: fixed; /* Fixes the footer at the bottom */
+    left: 0; /* Aligns footer to the left */
+    bottom: 0; /* Aligns footer to the bottom */
+    margin: 0; /* Removes any margin */
+}
